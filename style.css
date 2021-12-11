@@ -1,0 +1,106 @@
+    body {
+        background-color: rgb(15, 143, 143);
+        padding: 20px;
+    }
+    .Mygtukas {
+        text-align: center;
+        padding-top: 15px;
+        width: 100px;
+        height: 75px;
+        background: #109c9e;
+        margin-top: 10px;
+        border-radius: 20px;
+        transition: 2s all;
+        transition-duration: 3;
+        transition-property: inherit;
+        transition-timing-function: cubic-bezier(10.800, 0.5, 0.800, 1);
+        transition-delay: 0.1s;
+        font-size: 15px;
+        font-family: Georgia;
+    }
+    .Mygtukas:hover {
+        width: 700px;
+        height: 150px;
+        background: rgb(41, 182, 104);
+        /* border: 10px solid rgb(7, 104, 214); */
+        /* transform: scale(1.2); */
+        transform: translate(30px);
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .Mygtukas2 {
+        background: darkblue;
+        /* margin-top: 50px; */
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 50px;
+        opacity: 30%;
+    }
+    .Mygtukas2:hover {
+        opacity: 100%;
+        width: 700px;
+        height: 400px;
+        border-radius: 20px;
+        transition: all;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+              
+      }
+      /* span:hover + .Mygtukas2 {
+        display: block;
+      } */
+    
+      .Mygtukas:hover .Mygtukas2:nth-of-type(2) {
+          transition-delay: 0.5s;
+
+    }
+
+    /* .elementas {
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        background: paleturquoise;
+        margin: 50px;
+    }
+    
+    .kelias {
+        width: 200px;
+        border-radius: 10px;
+        background: yellowgreen;
+        margin-bottom: 10px;
+        transition: 0.5s;
+    }
+    
+    .kelias:hover {
+        background: peru;
+    }
+    
+    .road:hover .elementas1 {
+        margin-left: 300px;
+        transition-delay: 00.3s;
+        transition: 1s ease;
+    }
+    
+    .kelias:hover .delay {
+        transition-delay: 1s;
+    }
+    
+    .kelias:hover .elementas:nth-of-type(2) {
+        transition-delay: 0.2s; 
+    }
+    .kelias:hover .elementas:nth-of-type(3) {
+        transition-delay: 0.4s; 
+    }
+    .kelias:hover .elementas:nth-of-type(4) {
+        transition-delay: 0.6s; 
+    }
+    .kelias:hover .elementas:nth-of-type(5) {
+        transition-delay: 0.8s; 
+    }
+    .kelias:hover .elementas:nth-of-type(odd) {
+        background: green; 
+    }
+    .kelias:hover .elementas:nth-of-type(even) {
+        background: indianred;
+     */
